@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 80%;
+  max-width: 600px;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 15px 7px rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border: 2px solid black;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: 2px 3px 10px 3px rgba(0, 0, 0, 0.5);
+
+  text-transform: capitalize;
+  transition: all 0.5s;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
